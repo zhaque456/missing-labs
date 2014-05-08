@@ -1,0 +1,12 @@
+<html>	
+<body>
+<script>
+var answer = prompt("Please enter a number");
+var ones = answer % 10;
+var tens = (answer % 100 - ones) /10;
+var hundreds = (answer % 1000 - tens) /100;
+var thousands = (answer % 10000 - hundreds) /1000;
+console.log  (thousands+"thousands\n"+ hundreds+ "hundreds\n"+tens+"tens\n"+ones+"ones\n");
+</script>
+</body>
+</html>
